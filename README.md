@@ -1,1 +1,1 @@
-A browser version of a Etch-A-Sketch
+A browser version of an Etch-A-Sketch
