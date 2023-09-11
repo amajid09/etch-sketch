@@ -1,0 +1,46 @@
+body{
+
+}
+.screen{
+    height:95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-box{
+    border: 5px solid black;
+    height:450px;
+    width:500px;
+    border-radius: 6px;
+    display: flex;
+
+}
+
+.toggle-menu{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    left:10px;
+    display: flex;
+    justify-content: space-around;
+    outline:2px solid black;
+    height:6%;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.change_color{
+    background-color: brown;
+}
+.eraser > button{
+    border : 1px solid black;
+
+}
+
+.eraser> button:hover:active{
+    transform: translate(0, 1px);
+    background-color: bisque;
+}
